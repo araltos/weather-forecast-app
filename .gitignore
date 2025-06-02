@@ -1,0 +1,7 @@
+# API Keys and sensitive configuration
+config.json
+
+# Mac system files
+.DS_Store
+.DS_Store?
+._*

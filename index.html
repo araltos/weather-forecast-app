@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌤️ Weather Forecast App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🌤️ Weather Forecast</h1>
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button onclick="searchWeather()">Search</button>
+            <button onclick="useMyLocation()">My Location</button>
+        </div>
+        <button onclick="toggleTemperatureUnit()" class="temp-toggle">Swicht to C°/F°</button>
+        <div id="weatherDisplay"></div>
+        <canvas id="temperatureChart"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
