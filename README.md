@@ -6,7 +6,7 @@ This software is a web-based weather forecast application built using JavaScript
 
 The purpose of writing this software was to gain hands-on experience with asynchronous JavaScript, API integration, DOM manipulation, and data visualization techniques. Additionally, the project emphasizes secure API key management by loading the API key from a separate configuration file, ensuring that sensitive information is not exposed in the codebase.
 
-[Software Demo Video]()
+[Software Demo Video](https://youtu.be/yDCgTEmkIXw)
 
 # Development Environment
 
